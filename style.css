@@ -176,16 +176,17 @@ body {
     border-radius: 45px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.QusetionsHeader title {
+.QusetionsHeader .title {
     font-size: 15px;
     font-weight: 600;
 }
 
 .TimeCount {
     color: rgb(0, 140, 255);
+    font-size: 16px;
     background-color: #cce5ff;
     border: 1px solid #b8daff;
     height: 25px;
@@ -194,6 +195,13 @@ body {
     align-items: center;
     justify-content: space-between;
     width: 120px;
+}
+
+.TimeLeft {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 5px;
+    align-items: center;
 }
 
 .Seconds {
@@ -208,4 +216,91 @@ body {
     background: #343a40;
     border: 1px solid #343a40;
     user-select: none;
+}
+
+.time-lines {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 3px;
+    background: #007bff;
+}
+
+.section {
+    padding: 25px 30px 20px 30px;
+}
+
+.text {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.MyOptions {
+    padding: 20px 0px;
+    display: block;
+    /* margin-bottom: 20px; */
+}
+
+.Options {
+    background: aliceblue;
+    border: 1px solid #84c5fe;
+    border-radius: 5px;
+    padding: 8px 15px;
+    font-size: 17px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    transition: all 0.3d ease;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Options span {
+    font-size: 14px;
+}
+
+.Options:hover {
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid lightgrey;
+    position: relative;
+}
+
+.total_que {
+    padding-left: 30px
+}
+
+footer button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 6px 25px;
+    outline: none;
+    border: none;
+    border-radius: 57px 0px 51px 0px;
+    box-shadow: rgb( 0 0 0 / 10%) 0px 10px 50px;
+    background: tomato;
+    cursor: pointer;
+    color: #f1f1f1;
+    transition: all 0.3s ease;
+    margin-top: 11px;
+}
+
+footer .NextBtn:hover {
+    background-color: rgb(0, 140, 255);
+}
+
+.footer-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
