@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+.MyQuizApp {
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb( 0 0 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+}
+
+.img img {
+    width: 100%;
+    border-radius: 30px 30px;
+}
+
+.text {
+    width: 90%;
+    margin: auto;
+}
+
+.text h3 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.text p {
+    font-size: 14px;
+    color: #797979;
+}
+
+.MyBtn {
+    width: 60%;
+}
+
+.MyBtn button {
+    /* margin-left: 175px; */
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.MyBtn button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    border-radius: 50px 0 50px 0;
+    transition: 0.2s ease-in-out;
+    color: #fff;
+}
+
+.MyBtn button:hover {
+    background-color: rgb(0, 140, 255);
+}
+
+.info_box {
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb( 0 0 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+}
+
+.info-title h2 {
+    text-align: center;
+    margin: auto;
+    padding: 20px 0;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    background-color: tomato;
+    border-radius: 35px 35px 0px 0px;
+}
+
+.info-title {
+    border-bottom: 2px solid #797979;
+}
+
+.info-list {
+    margin: auto;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #797979;
+    padding: 5px;
+}
+
+.info-list div {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Buttons,
+.ExitButton {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.Buttons,
+.ContinueButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.Buttons button {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: tomato;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 35px;
+    transition: 0.2s ease-in-out;
+    color: #fff;
+}
+
+.Buttons button:hover {
+    background-color: rgb(0, 140, 255);
+}
+
+.ExitButton {
+    border-radius: 0px 35px 0px 35px;
+}
+
+.ContinueButton {
+    border-radius: 35px 0px 35px 0px;
+}
+
+.Questions {
+    width: 320px;
+    height: 580px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #fff;
+    box-shadow: rgb( 0 0 0 / 10%) 0px 10px 50px;
+    transform: translate(-50%, -50%);
+    border-radius: 35px;
+}
+
+.QusetionsHeader {
+    position: relative;
+    z-index: 2;
+    height: 70px;
+    padding: 0 30px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.QusetionsHeader title {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.TimeCount {
+    color: rgb(0, 140, 255);
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.Seconds {
+    font-size: 18px;
+    font-weight: 500;
+    height: 26px;
+    width: 45px;
+    color: #fff;
+    border-radius: 5px;
+    line-height: 26px;
+    text-align: center;
+    background: #343a40;
+    border: 1px solid #343a40;
+    user-select: none;
+}
